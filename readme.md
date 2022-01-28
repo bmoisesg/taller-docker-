@@ -27,6 +27,18 @@ docker ps
 docker ps -a
 ```
 
+## Dockerfile
+```
+docker build -t miapp .
+docker run --name proyectausac -d -p 9000:9000  miapp
+```
+
+## Docker-compse
+```
+docker-compose up --build
+docker-compose down
+```
+
 
 
 

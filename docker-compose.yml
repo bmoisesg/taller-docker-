@@ -1,0 +1,7 @@
+version : "2.2"
+services:  
+    miapp:
+        container_name: proyecta 
+        build: ./src
+        ports:
+            - "9000:9000"
